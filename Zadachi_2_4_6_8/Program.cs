@@ -1,9 +1,13 @@
-﻿// Эадание первое
-/*
+﻿// Эадание первое (Задача 2)
+
 Console.WriteLine("Введите число: ");
 double a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 double b = Convert.ToDouble(Console.ReadLine());
+if(a == b)
+{
+    Console.Write("Эти два числа равны");
+}
 if (a > b)
 {
     Console.Write(a);
@@ -12,13 +16,20 @@ if (a > b)
 }
 else
 {
-    Console.Write(b);
-    Console.Write(" больше ");
-    Console.Write(a);
+   if(a == b)
+   {
+        Console.WriteLine();
+   }
+   else
+   {
+        Console.Write(b);
+        Console.Write(" больше ");
+        Console.Write(a);
+   }
 }
-*/
-// Задание второе (Задача 4.)
 
+// Задание второе (Задача 4.)
+/*
 Console.WriteLine("Введите число: ");
 double a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
@@ -71,6 +82,7 @@ else
         }
     }
 }
+*/
 // Задача 6:
 /*
 Console.WriteLine("Введите целое число: ");

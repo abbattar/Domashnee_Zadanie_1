@@ -29,7 +29,7 @@ else
 }
 
 // Задание второе (Задача 4.)
-
+/*
 Console.WriteLine("Введите число: ");
 double a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
@@ -82,6 +82,7 @@ else
         }
     }
 }
+*/
 // Задача 6:
 /*
 Console.WriteLine("Введите целое число: ");

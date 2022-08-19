@@ -18,7 +18,7 @@ else
 }
 */
 // Задание второе (Задача 4.)
-/*
+
 Console.WriteLine("Введите число: ");
 double a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
@@ -26,45 +26,51 @@ double b = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите третье число: ");
 double c = Convert.ToDouble(Console.ReadLine());
 
-if (a > b)
+if((a == b) ^ (a == c) ^ (b == c))
 {
-    if(a > c)
-    {
-        Console.Write(a);
-        Console.Write(" больше ");
-        Console.Write(b);
-        Console.Write(" и больше ");
-        Console.Write(c);
-    }
-    else
-    {
-        Console.Write(c);
-        Console.Write(" больше ");
-        Console.Write(a);
-        Console.Write(" и больше ");
-        Console.Write(b);
-    }
+    Console.WriteLine("Введите три разных числа!");
 }
 else
 {
-    if(b > c)
+    if(a > b)
     {
-        Console.Write(b);
-        Console.Write(" больше ");
-        Console.Write(a);
-        Console.Write(" и больше ");
-        Console.Write(c);
+        if(a > c)
+        {   
+            Console.Write(a);
+            Console.Write(" больше ");
+            Console.Write(b);
+            Console.Write(" и больше ");
+            Console.Write(c);
+        }
+        else
+        {
+            Console.Write(c);
+            Console.Write(" больше ");
+            Console.Write(a);
+            Console.Write(" и больше ");
+            Console.Write(b);
+        }   
     }
     else
     {
-        Console.Write(c);
-        Console.Write(" больше ");
-        Console.Write(a);
-        Console.Write(" и больше ");
-        Console.Write(b);
+        if(b > c)
+        {
+            Console.Write(b);
+            Console.Write(" больше ");
+            Console.Write(a);
+            Console.Write(" и больше ");
+            Console.Write(c);
+        }
+        else
+        {   
+            Console.Write(c);
+            Console.Write(" больше ");
+            Console.Write(a);
+            Console.Write(" и больше ");
+            Console.Write(b);
+        }
     }
 }
-*/
 // Задача 6:
 /*
 Console.WriteLine("Введите целое число: ");
@@ -79,6 +85,7 @@ else
 }
 */
 // Задача 8:
+/*
 Console.WriteLine("Введите положительное целое число больше 1: ");
 int a = Convert.ToInt32(Console.ReadLine()), b;
 int index = 1;
@@ -116,3 +123,4 @@ else
         index++;
     }
 }
+*/
